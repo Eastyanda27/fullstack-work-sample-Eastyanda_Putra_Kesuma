@@ -1,0 +1,33 @@
+{
+    "name": "fullstack-work-sample",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "start": "vite preview",
+        "test": "vitest run",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.536.0",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "react-window": "1.8.11",
+        "tailwind-merge": "^3.3.1",
+        "zustand": "^5.0.7"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.1.11",
+        "@types/node": "^22.15.0",
+        "@types/react": "18.3.12",
+        "@types/react-dom": "18.3.5",
+        "@types/react-window": "1.8.8",
+        "@vitejs/plugin-react-swc": "^4.0.0",
+        "tailwindcss": "^4.1.11",
+        "typescript": "~5.8.3",
+        "vite": "^7.0.4",
+        "vitest": "^3.2.4"
+    }
+}

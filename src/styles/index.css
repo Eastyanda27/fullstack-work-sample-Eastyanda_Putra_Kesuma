@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+    --animate-flash: flash 1s ease-out;
+
+    @keyframes flash {
+        from {
+            background-color: var(--color-amber-200);
+        }
+        to {
+            background-color: transparent;
+        }
+    }
+}
+
+body {
+    @apply bg-gray-50 text-gray-900 antialiased dark:bg-black dark:text-gray-100;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
